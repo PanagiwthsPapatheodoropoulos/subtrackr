@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Netflix receipt - March 2026</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; background: #f4f4f4; }
+    .container { max-width: 600px; margin: 40px auto; background: #ffffff; border-radius: 4px; overflow: hidden; }
+    .header { background: #E50914; padding: 28px 40px; }
+    .header img { height: 36px; }
+    .header-title { color: #ffffff; font-size: 22px; font-weight: bold; margin: 0; }
+    .body { padding: 32px 40px; color: #333333; }
+    .greeting { font-size: 16px; margin-bottom: 16px; }
+    .summary-box { background: #f9f9f9; border: 1px solid #e5e5e5; border-radius: 4px; padding: 20px 24px; margin: 24px 0; }
+    .summary-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #ebebeb; font-size: 14px; }
+    .summary-row:last-child { border-bottom: none; font-weight: bold; font-size: 15px; }
+    .label { color: #666; }
+    .value { color: #111; }
+    .total-value { color: #E50914; font-size: 18px; }
+    .cta { text-align: center; margin: 28px 0; }
+    .cta a { background: #E50914; color: #ffffff; text-decoration: none; padding: 14px 32px; border-radius: 4px; font-weight: bold; font-size: 15px; }
+    .footer { background: #f4f4f4; padding: 20px 40px; color: #999; font-size: 12px; text-align: center; border-top: 1px solid #e5e5e5; }
+    .divider { height: 1px; background: #ebebeb; margin: 20px 0; }
+    .plan-badge { display: inline-block; background: #E50914; color: white; font-size: 11px; font-weight: bold; padding: 3px 8px; border-radius: 3px; margin-left: 8px; vertical-align: middle; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <p class="header-title">NETFLIX</p>
+  </div>
+
+  <!-- Body -->
+  <div class="body">
+    <p class="greeting">Hi there,</p>
+    <p style="font-size:15px; color:#444; line-height:1.6;">
+      Thank you for your subscription. Your payment has been processed successfully.
+      Here is your monthly billing receipt.
+    </p>
+
+    <!-- Receipt summary -->
+    <div class="summary-box">
+      <p style="margin: 0 0 12px 0; font-weight: bold; font-size: 15px; color: #111;">
+        Receipt #NF-2026031301
+      </p>
+
+      <div class="summary-row">
+        <span class="label">Subscription plan</span>
+        <span class="value">Standard with ads <span class="plan-badge">MONTHLY</span></span>
+      </div>
+      <div class="summary-row">
+        <span class="label">Billing period</span>
+        <span class="value">13 Mar 2026 – 12 Apr 2026</span>
+      </div>
+      <div class="summary-row">
+        <span class="label">Payment method</span>
+        <span class="value">Visa ending in 4242</span>
+      </div>
+      <div class="summary-row">
+        <span class="label">Billing date</span>
+        <span class="value">13 March 2026</span>
+      </div>
+      <div class="divider"></div>
+      <div class="summary-row">
+        <span class="label" style="font-weight:bold;">Total charged</span>
+        <span class="total-value">€12.99</span>
+      </div>
+    </div>
+
+    <p style="font-size:13px; color:#666; line-height:1.6;">
+      Your next billing date is <strong>12 April 2026</strong>.
+      You will be charged <strong>€12.99</strong> on that date.
+    </p>
+
+    <!-- CTA -->
+    <div class="cta">
+      <a href="https://www.netflix.com/account">Manage Your Membership</a>
+    </div>
+
+    <div class="divider"></div>
+
+    <p style="font-size:13px; color:#888; line-height:1.6;">
+      If you have any questions about your billing, visit our
+      <a href="https://help.netflix.com" style="color:#E50914;">Help Center</a>
+      or contact us at
+      <a href="mailto:billing@netflix.com" style="color:#E50914;">billing@netflix.com</a>.
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Netflix, Inc. · 100 Winchester Circle · Los Gatos, CA 95032 · USA</p>
+    <p>© 2026 Netflix, Inc. All rights reserved.</p>
+    <p>This is a subscription billing receipt. Amount charged: EUR 12.99</p>
+  </div>
+
+</div>
+</body>
+</html>
